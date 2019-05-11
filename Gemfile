@@ -26,6 +26,8 @@ group :development, :test do
   gem 'pry'
   gem 'pry-nav'
   gem 'pry-remote'
+
+  gem 'dotenv-rails'
 end
 
 group :development do
