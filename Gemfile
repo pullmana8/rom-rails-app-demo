@@ -23,6 +23,9 @@ gem 'turbolinks', '~> 5'
 gem 'bootsnap', '>= 1.1.0', require: false
 
 group :development, :test do
+  gem 'pry'
+  gem 'pry-nav'
+  gem 'pry-remote'
 end
 
 group :development do
