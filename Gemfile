@@ -8,14 +8,14 @@ gem 'rails', '~> 5.2.3'
 # Use Puma as the app server
 gem 'puma', '~> 3.11'
 # Use SCSS for stylesheets
-gem 'sass-rails', '~> 5.0'
+gem 'sass-rails', '~> 5.0', '>= 5.0.7'
 # Use Uglifier as compressor for JavaScript assets
 gem 'uglifier', '>= 1.3.0'
 # Transpile app-like JavaScript. Read more: https://github.com/rails/webpacker
-gem 'webpacker'
+gem 'webpacker', '>= 4.0.2'
 
 gem 'pg'
-gem 'rom-rails'
+gem 'rom-rails', '>= 2.0.0'
 gem 'rom-sql'
 
 # Turbolinks makes navigating your web application faster. Read more: https://github.com/turbolinks/turbolinks
@@ -31,8 +31,8 @@ group :development, :test do
   gem 'pry-nav'
   gem 'pry-remote'
 
-  gem 'dotenv-rails'
-  gem 'rspec-rails'
+  gem 'dotenv-rails', '>= 2.7.2'
+  gem 'rspec-rails', '>= 3.8.2'
 end
 
 group :development do
