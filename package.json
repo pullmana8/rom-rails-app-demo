@@ -2,12 +2,17 @@
   "name": "rom-rails-demo",
   "private": true,
   "dependencies": {
-    "@rails/webpacker": "^4.0.2",
+    "@rails/webpacker": "^4.2.2",
     "vue": "^2.6.10",
     "vue-loader": "^15.9.1",
     "vue-template-compiler": "^2.6.10"
   },
   "devDependencies": {
     "webpack-dev-server": "^3.3.1"
-  }
+  },
+  "scripts": {
+    "snyk-protect": "snyk protect",
+    "prepare": "yarn run snyk-protect"
+  },
+  "snyk": true
 }
